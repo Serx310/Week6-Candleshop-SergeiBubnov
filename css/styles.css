@@ -43,6 +43,11 @@ body, html{
     transition: all 0.4s;
 }
 
+.btn:hover{
+    background-color: #593625;
+    color: #E0C4D1;
+}
+
 .packaging-image{
     background-image: url(../img/pexels-photo-1652109.jpeg);
     min-height: 500px;
@@ -65,10 +70,6 @@ body, html{
     transition: all 0.4s;
 }
 
-.packaging-image__text .btn:hover{
-    background-color: #593625;
-    color: #E0C4D1;
-}
 
 .tutorials-image{
     background-image: url(../img/pexels-photo-289756.jpeg);
