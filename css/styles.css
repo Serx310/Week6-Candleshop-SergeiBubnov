@@ -23,7 +23,6 @@ body, html{
 .intro-image{
     background-image: url(../img/pexels-photo-11533.jpeg);
     min-height: 300px;
-    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 86%);
     overflow: hidden;
 }
 
@@ -58,7 +57,6 @@ body, html{
     margin-left: 530px;
     transform: translate(-2%, 750%);
 }
-
 .packaging-image__text a{
     background-color: #D0823B;
     color: #ffffff;
@@ -75,6 +73,7 @@ body, html{
     background-image: url(../img/pexels-photo-289756.jpeg);
     min-height: 500px;
     overflow: hidden;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 .tutorials-image__text{
