@@ -1,0 +1,146 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(128, 123, 123);
+}
+
+.intro-image, .packaging-image, .tutorials-image{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*fixed = parallax
+    scroll = normal
+    */
+    background-attachment: fixed;
+}
+
+.intro-image{
+    background-image: url(../img/pexels-photo-11533.jpeg);
+    min-height: 300px;
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 86%);
+    overflow: hidden;
+}
+
+.intro-image__text{
+    margin-left: 545px;
+    transform: translate(-4%, 350%);
+}
+
+.intro-image__text a{
+    background-color: #D0823B;
+    color: #ffffff;
+    padding: 0.7em;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    transition: all 0.4s;
+}
+
+.packaging-image{
+    background-image: url(../img/pexels-photo-1652109.jpeg);
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.packaging-image__text{
+    margin-left: 530px;
+    transform: translate(-2%, 750%);
+}
+
+.packaging-image__text a{
+    background-color: #D0823B;
+    color: #ffffff;
+    padding: 0.7em;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    transition: all 0.4s;
+}
+
+.packaging-image__text .btn:hover{
+    background-color: #593625;
+    color: #E0C4D1;
+}
+
+.tutorials-image{
+    background-image: url(../img/pexels-photo-289756.jpeg);
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.tutorials-image__text{
+    margin-left: 530px;
+    transform: translate(13%, 850%);
+}
+
+.tutorials-image__text a{
+    background-color: #D0823B;
+    color: #ffffff;
+    padding: 0.7em;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    transition: all 0.4s;
+}
+
+.packaging-text, .intro-text{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.intro-text{
+    background-color: #634f4d;
+}
+
+.packaging-text{
+    background-color: #634f4d;
+}
+.heading-solid{
+    text-transform: uppercase;
+}
+.heading-solid .beige{
+    text-decoration-style: solid;
+    text-decoration-color: beige;
+}
+
+.heading-solid .green{
+    text-decoration-style: solid;
+    text-decoration-color: green;
+}
+
+.footer{
+   text-align: center;
+}
+
+/* .contact{
+    display: inline-block;
+    
+} */
+
+.contact li{
+    display: inline-block;
+    right: 5rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: rgb(128, 123, 123);
+}
+
+
